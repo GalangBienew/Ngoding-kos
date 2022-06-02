@@ -65,3 +65,49 @@ body {
     text-decoration: solid;
     transition: all .3s ease-in-out;
 }
+.wrapper {
+    margin: auto;
+    justify-content: space-between;
+    position: sticky;
+    flex-direction: row;
+    padding: auto;
+    line-height: 17px;
+    display: flex; 
+}
+.home {
+  display: ruby-base-container;
+  margin-right: 546px;
+  margin-left: 546px; 
+}
+.coloums {
+    padding: 5px;
+    margin: auto;
+    font-family: 'open sans' monospace;
+    display: contents;
+}
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.life {
+    color: brown;
+}
+.nextpage {
+    border-radius: 40px;
+    padding: 15px 10px 15px 10px;
+    cursor: pointer;
+    height: 10px;
+    color: black;
+    background-color: burlywood;
+    margin-left: 50px;
+    text-decoration: none;
+    overflow: hidden;   
+}
+a.nextpage:hover {
+    background-color: black;
+    color: grey;
+}
+p {
+    margin: 5px 0px 5px 0px;
+    padding: 10px 0px 10px 0px;
+}
