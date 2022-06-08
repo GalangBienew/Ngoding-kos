@@ -1,13 +1,14 @@
-#hero-section {
-    padding: 5rem 2rem;
+.hero-section {
+    padding-bottom: 10rem ;
     background: rgb(92, 42, 42);
 }
 
-body {
-    min-height: 3000px;
-}
+
 .container-ab {
     width:100%;
     background-color: black;
     
+}
+.col > h2 {
+    font-size: 18px;
 }

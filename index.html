@@ -6,28 +6,29 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="cuy.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   </head>
-  <body>
+  <body id="#Home">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg  navbar-light bg-warning shadow-lg">
-        <div class="container">
-          <a class="navbar-brand" href="#">Anya.</a>
+    <nav class="navbar navbar-expand-lg  navbar-light bg-warning shadow-lg fixed-top  ">
+        <div class="container  ">
+          <a class="navbar-brand fw-bold" href="#">Anya.</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item ">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#About">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Skils</a>
+                <a class="nav-link" href="#Mypicture">Mypicture</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href ="#">Contact</a>
+                <a class="nav-link" href ="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -36,8 +37,8 @@
     <!-- nav akhri -->
 
     <!-- hero section -->
-    <section class="Hero-section pt-5   w-100 text-black-50 text-center fw-bold bg-black ">
-        <div class="container w-100 pb-2 ">
+    <section id="Hero-section pt-5  w-100 text-black-50 text-center fw-bold bg-black ">
+        <div class="container p-5 ">
             <img src="img/spy.png" alt="iamge" width="130"  class="rounded-circle img-thumbnail" >
           <h1 class="display-6 text-white">Anya-Anya</h1>
           <p class="lead fw-30 text-white">Aktor | anak gadungan </p>
@@ -47,26 +48,120 @@
     <!-- hero section akhir-->
 
     <!-- about -->
-    <section id="about">
-        <div class="container-ab  ">
-            <div class="row text-center fs-3 p-5 text-white ">
+    <section id="About">
+        <div class="container-ab ">
+            <div class="row text-center fs-6 p-5 text-white ">
                 <div class="col">
                     <h2>About me</h2>
                 </div>
             </div>
             <div class="row justify-content-center fs-5">
-                <div class="col-4">
+                <div class="col-md-4">
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo excepturi soluta illum accusantium architecto iusto, odio perspiciatis repudiandae officiis eum.</p>
                 </div>
-                <div class="col-4"> 
+                <div class="col-md-4 "> 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam natus obcaecati consequatur blanditiis voluptates culpa mollitia suscipit maiores ullam ipsum!</p>
                 </div>
             </div>
         </div>
+      </section>
+      <!-- about akhir-->
+       
+      <!-- Mypicture first -->
+
+        <section id="Mypicture">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col p-2 text-black fw-bolder">
+                <h2>--Mypicture--</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center bg-black">
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="img/anya1.png" class="card-img-top" alt="anya1">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 mb-2">
+              <div class="card">
+                <img src="img/anya2.png" class="card-img-top" alt="anya2">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="img/anya3.png" class="card-img-top" alt="anya3">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="img/anya4.png" class="card-img-top" alt="anya4">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>  
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card">
+                <img src="img/anya5.png" class="card-img-top" alt="anya5">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      <!-- Mypicture akhir last-->
             
-    </section>
-            
-    <!-- about akhir-->
+
+      <!-- contact first -->
+      <section id="contact">
+        <div class="container-fluid bg-warning">
+          <div class="row">
+            <div class="col text-center mb-3">
+              <h2>Contact</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-8 ">
+              <form>
+                <div class="mb-md-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-md-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-md-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,160L48,154.7C96,149,192,139,288,160C384,181,480,235,576,245.3C672,256,768,224,864,181.3C960,139,1056,85,1152,53.3C1248,21,1344,11,1392,5.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+      </section>
+      <!-- contact Last -->
+
+      <!-- footer -->
+
+      <footer class="bg-primary text-white  text-center pb-5 ">
+        <p>Created with <i class="bi bi-balloon-heart-fill text-danger"></i><a href="" class="text-white fw-bold"></a> -Sandhika-</p>
+      </footer>
+      <!-- footer last -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
-</html>
+</html>s
